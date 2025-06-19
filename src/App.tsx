@@ -18,7 +18,7 @@ export const App: React.FC = () => {
   return (
     <div className="App">
       <p className="App__message">
-        {pressedKey === null
+        {pressedKey
           ? 'Nothing was pressed yet'
           : `The last pressed key is [${pressedKey}]`}
       </p>
